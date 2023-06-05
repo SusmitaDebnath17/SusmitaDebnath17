@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mainNav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#mainNav>div{
+    height: 50px;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+#icon{
+    height: 50px;
+    width: 55%;
+    border: 2px solid black;
+
+}
+#mainNav>div>a{
+    display: flex;
+    text-decoration: none;
+    font-size: smaller;
+    color: black;
+    font-weight: lighter;
+}
+#nav2{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(223, 32, 32);
+    display: flex;
+
+
+}
+#logo{
+    height:60px;
+    width:30% ;
+    /* border: 2px solid cyan; */
+    display:flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+}
+#logo>img{
+    height: 90%;
+    width: 50%;
+    padding-right: 50px;
+}
+#div1{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+#div1>h1{
+    font-size: 13px;
+    color: aliceblue;
+    
+}
+#div2{
+    width: 25%;
+    background: rgb(12, 12, 97);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+   
+}
+#chatboat{
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: antiquewhite;
+
+}
+#login{
+    margin-left: 20px;
+    height: 45px;
+    width: 75px;
+    border-radius: 7px;
+    background: transparent;
+    color: aliceblue;
+    border: 2px solid rgb(248, 241, 241);
+}
+#login>a{
+    color: aliceblue;
+
+}
